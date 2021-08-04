@@ -13,10 +13,8 @@ from itertools import cycle
 class Fun(commands.Cog):
     def __init__(self, client):
         self.client= client
-        self.locateauths= cycle(('72784644057498447747x109339','498195627063364334660x92369',
-            '392859239888332366996x84042','386566793158249776238x109165'))
-        self.weatherauths= cycle(('9fa4c6320c0572a28ba5bb74e3d2e77b','ebe2fbc4698f167aed9a6871d3792426',
-            '76cfb09cef64acf0a78eba1bcb58e209','9b3b8c729b86598e14f405afabc3250b'))
+        self.locateauths= cycle(('tuple', 'of', 'your', 'api', 'key'))
+        self.weatherauths= cycle(('tuple', 'of', 'your', 'api', 'key'))
 
     
     animals= ['dog', 'cat', 'fox', 'bird']
