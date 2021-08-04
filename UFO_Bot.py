@@ -330,5 +330,5 @@ if __name__ == '__main__':
             return True
     hc.add_check(help_check)
     MyUFO.help_command= hc
-    TOKEN = 'ODIyNDQ4MTQzNTA4OTYzMzM4.YFSahQ._GTSECvd4bnM8JCN1EbjjP95Kws'
+    TOKEN = '*YOUR TOKEN HERE*'
     MyUFO.run(TOKEN)
