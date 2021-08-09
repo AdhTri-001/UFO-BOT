@@ -209,7 +209,7 @@ class Ufo_bot(commands.Bot):
         self.inited= False
         self.commandused= 0
         self._help_command= None
-        self.dsn= 'postgres://ufobot:YOURPASS@localhost/ufobotdb' ########### 
+        self.dsn= 'postgres://ufobot:YOURPASS@localhost/ufobotdb' ##########
         super().__init__(command_prefix, help_command=help_command, description=description, **options)
 
     # Yesy! my bot is my util too.
